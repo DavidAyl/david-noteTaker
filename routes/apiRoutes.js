@@ -8,6 +8,7 @@ getnotes()
 .then((notes) => {
     return res.json(notes);
 })
+// or rest code 404? not sure
 .catch((err) => res.status(500).json(err));
 }));
 
